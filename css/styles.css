@@ -1,0 +1,188 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Roboto', sans-serif;
+}
+
+
+body{
+  background: #F5F5F5;
+
+}
+header{
+  height: 100px;
+}
+
+.container__header{
+  max-width: 1200px;
+  height: 100px;
+  margin: auto;
+  padding: 40px;
+  padding-top: 80px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo img{
+    width: 180px;
+    filter: drop-shadow(-40px 0px 30px rgba(0,0,0,0.5));
+}
+
+.menu nav ul{
+  display: flex;
+}
+
+.menu nav ul li{
+  list-style: none;
+  padding: 0px 20px;
+}
+
+.menu nav ul li a{
+  font-size: 18px;
+  text-decoration: none;
+  color: #000;
+  transition:  300ms;
+}
+.menu nav ul li a:hover{
+  opacity: 0.6;
+}
+
+
+/* Cover -- Portada */
+main{
+  max-width: 1200px;
+  height: calc(100vh + 800px);
+  padding: 40px;
+  margin: auto;
+  
+}
+.cover{
+  display: flex;
+  justify-content: center;
+  margin-top: 60px;
+}
+.text__cover-information{
+  width: 50%;
+}
+.text__cover-information h1{
+  font-size: 50px;
+}
+.text__cover-information p{
+  font-size: 18px;
+  margin-top: 40px;
+}
+.media__cover{
+  width: 50%;
+}
+.media__cover img{
+  width: 100%;
+  margin-top: -40px;
+}
+
+/* Estilo general botones cover*/
+.button__cover{
+  display: flex;
+  margin-top: 40px;
+}
+/* Botones de registro */
+.btn__header-register,  .btn__register-cover{
+  padding: 10px 40px;
+  border: none;
+  background-color: #000;
+  color: white;
+  font-weight: 500px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background, color, 800ms;
+}
+/* Boton de leer */
+.btn__readmore-cover {
+  padding: 14px 40px;
+  border: none;
+  color: #000;
+  font-weight: 500;
+  font-size: 16px;
+  cursor: pointer;
+  margin-left: 10px;
+  transition: background, color, 800ms;
+}
+/* Hover de botones */
+.btn__header-register:hover,
+.btn__register-cover:hover {
+  background: rgb(155, 32, 32);
+}
+.btn__readmore-cover:hover {
+  background: gray;
+  color: #000;
+}
+
+/* BANNER */
+
+
+.container__banner{
+  margin-top: 80px;
+}
+
+.banner{
+  height: 330px;
+  display: flex;
+  align-items: center;
+  background:#000 ;
+  position: relative;
+}
+
+.banner__icon-cartel{
+  width: 25%;
+  height: 100%;
+  position: relative;
+  filter: drop-shadow(-40px 0px 30px rgba(0,0,0,0.5));
+}
+#cartelluffy{
+  width: 300px;
+  height: 100%;
+  margin-top: -20px;
+  margin-left: -30px;
+  position: relative;
+}
+
+.banner__icon-One-Piece-PNG-Transparent-Image{
+  position: absolute;
+  height: 100%;
+  right: 10px;
+  overflow: hidden;
+}
+#One-Piece-PNG-Transparent-Image{
+  width: 200px;
+  position: relative;
+  margin-top: 183px;
+  opacity: 0.6;
+}
+
+.banner__text{
+  width: 60%;
+  position: relative;
+  padding: 40px;
+}
+.banner__text h2{
+  color: white;
+  font-size: 32px;
+  font-weight: 400;
+}
+.banner__text a{
+  text-decoration: none;
+  display: block;
+  margin-top: 20px;
+  color: white;
+  font-size: 15px;
+  font-weight: bold;
+  transition: color 300ms;
+}
+.banner__text a:hover{
+  color: red;
+}
+
+
