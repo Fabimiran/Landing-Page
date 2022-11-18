@@ -186,3 +186,15 @@ main{
 }
 
 
+
+@media  (max-width: 1024px){
+
+  .container__header, main {
+    padding: 20px;
+  }  
+
+  #icon-menu{
+    display: block;
+    cursor: pointer;
+  }
+}
